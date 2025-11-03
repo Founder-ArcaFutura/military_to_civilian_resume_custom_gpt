@@ -1,5 +1,7 @@
 # Military to Civilian Resume Translator
 
+Want to experience the resume writer yourself?  https://chatgpt.com/g/g-6903ffd910a48191ba4a659053ac734e-caf-military-to-civilian-transition
+
 ## Overview
 
 This repository contains the backend service for a custom GPT designed to translate Canadian Armed Forces (CAF) Military Personnel Record Résumés (MPRR) into civilian-friendly language. The service uses a simple, data-focused approach to provide accurate and relevant translations, helping veterans effectively communicate their skills and experience to civilian employers.
