@@ -1,0 +1,6 @@
+mosid,caf_title,noc_code,civilian_title,role_description,source_file,source_publication_date,transcription_date
+00010,Armour Officer,43100,Commissioned officers of the Canadian Armed Forces,Plans and leads armoured fighting vehicle operations and integrates reconnaissance intelligence for battle group commanders.,mnet_mosid_noc_2023.csv,2023,2025-10-29
+00105,Infantry Soldier,43102,Non-commissioned ranks of the Canadian Armed Forces,"Provides close combat capabilities, tactical security, and small-unit leadership in austere environments.",mnet_mosid_noc_2023.csv,2023,2025-10-29
+00162,Aerospace Control Operator,72601,Air traffic controllers and related occupations,"Maintains airspace surveillance, coordinates aircraft movements, and relays critical flight information from control centres.",mnet_mosid_noc_2023.csv,2023,2025-10-29
+00321,Signals Officer,21311,Computer engineers (except software engineers and designers),"Designs, deploys, and safeguards tactical and strategic communications networks for CAF operations.",mnet_mosid_noc_2023.csv,2023,2025-10-29
+00368,Naval Combat Information Operator,72602,Other technical occupations in air traffic control and related operations,"Operates shipboard sensors, fuses radar tracks, and briefs command teams on maritime situational awareness.",mnet_mosid_noc_2023.csv,2023,2025-10-29

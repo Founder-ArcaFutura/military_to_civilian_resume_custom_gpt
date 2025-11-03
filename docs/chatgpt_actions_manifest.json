@@ -1,0 +1,19 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "CAF Resume Helper",
+  "name_for_model": "caf_resume_helper",
+  "description_for_human": "Lookup CAF MOSID equivalencies and rank responsibilities to craft civilian-ready résumés.",
+  "description_for_model": "Use this action to retrieve Canadian Armed Forces MOSID-to-NOC mappings, civilian task statements, and rank responsibilities when translating military experience into résumé language. Always send the caller-provided API key in the X-API-Key header.",
+  "auth": {
+    "type": "service_http",
+    "authorization_type": "bearer"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://resume-helper.example.com/.well-known/openapi.yaml",
+    "is_user_authenticated": true
+  },
+  "logo_url": "https://resume-helper.example.com/assets/logo.png",
+  "contact_email": "ops@resume-helper.example.com",
+  "legal_info_url": "https://resume-helper.example.com/legal"
+}

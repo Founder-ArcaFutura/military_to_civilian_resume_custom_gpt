@@ -1,0 +1,52 @@
+[
+  {
+    "mosid": "00010",
+    "caf_title": "Armour Officer",
+    "noc_code": "43100",
+    "civilian_title": "Commissioned officers of the Canadian Armed Forces",
+    "role_description": "Plans and leads armoured fighting vehicle operations and integrates reconnaissance intelligence for battle group commanders.",
+    "source_file": "mnet_mosid_noc_2023.csv",
+    "source_publication_date": "2023",
+    "transcription_date": "2025-10-29"
+  },
+  {
+    "mosid": "00105",
+    "caf_title": "Infantry Soldier",
+    "noc_code": "43102",
+    "civilian_title": "Non-commissioned ranks of the Canadian Armed Forces",
+    "role_description": "Provides close combat capabilities, tactical security, and small-unit leadership in austere environments.",
+    "source_file": "mnet_mosid_noc_2023.csv",
+    "source_publication_date": "2023",
+    "transcription_date": "2025-10-29"
+  },
+  {
+    "mosid": "00162",
+    "caf_title": "Aerospace Control Operator",
+    "noc_code": "72601",
+    "civilian_title": "Air traffic controllers and related occupations",
+    "role_description": "Maintains airspace surveillance, coordinates aircraft movements, and relays critical flight information from control centres.",
+    "source_file": "mnet_mosid_noc_2023.csv",
+    "source_publication_date": "2023",
+    "transcription_date": "2025-10-29"
+  },
+  {
+    "mosid": "00321",
+    "caf_title": "Signals Officer",
+    "noc_code": "21311",
+    "civilian_title": "Computer engineers (except software engineers and designers)",
+    "role_description": "Designs, deploys, and safeguards tactical and strategic communications networks for CAF operations.",
+    "source_file": "mnet_mosid_noc_2023.csv",
+    "source_publication_date": "2023",
+    "transcription_date": "2025-10-29"
+  },
+  {
+    "mosid": "00368",
+    "caf_title": "Naval Combat Information Operator",
+    "noc_code": "72602",
+    "civilian_title": "Other technical occupations in air traffic control and related operations",
+    "role_description": "Operates shipboard sensors, fuses radar tracks, and briefs command teams on maritime situational awareness.",
+    "source_file": "mnet_mosid_noc_2023.csv",
+    "source_publication_date": "2023",
+    "transcription_date": "2025-10-29"
+  }
+]

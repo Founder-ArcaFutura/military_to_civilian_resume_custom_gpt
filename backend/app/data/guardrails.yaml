@@ -1,0 +1,13 @@
+version: 0.1.0
+consent:
+  - Obtain written consent from the member before processing any identifiable MPRR extracts.
+  - Store consent artifacts in encrypted storage with retention capped at 12 months.
+data_handling:
+  - Redact SIN, service number, and dependent information prior to ingestion.
+  - Enforce transport encryption (TLS 1.2+) for all API interactions.
+  - Restrict raw MPRR access to cleared personnel via role-based access control.
+  - Rotate encryption keys and audit access logs quarterly.
+llm_usage:
+  - Provide only anonymized, structured data to language models.
+  - Require explicit approval for any model updates that introduce external training data.
+  - Log prompts and completions for accountability, excluding personal identifiers.

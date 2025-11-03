@@ -1,0 +1,130 @@
+version: 0.2.0
+families:
+  - mosid_family: 00300 - Infantry Officer
+    indicators:
+      - name: led section
+        keywords:
+          - led a section
+          - section commander
+          - commanded a section
+      - name: platoon commander
+        keywords:
+          - platoon commander
+          - commanded a platoon
+          - platoon leader
+      - name: oversaw training
+        keywords:
+          - oversaw training
+          - ran training program
+          - supervised training
+      - name: readiness program
+        keywords:
+          - readiness program
+          - readiness status
+          - force readiness
+      - name: developed battle procedure
+        keywords:
+          - developed battle procedure
+          - wrote battle procedure
+          - battle procedure development
+      - name: produced op orders
+        keywords:
+          - produced op orders
+          - authored operations order
+          - drafted opord
+  - mosid_family: 00109 - Signals Technician
+    indicators:
+      - name: maintained communications suite
+        keywords:
+          - maintained communications suite
+          - maintained comms suite
+          - maintained communication systems
+      - name: deployed signals detachment
+        keywords:
+          - deployed signals detachment
+          - signals detachment deployment
+          - deployed comms detachment
+      - name: equipment custodian
+        keywords:
+          - equipment custodian
+          - accountable for equipment
+          - equipment steward
+      - name: controlled inventory
+        keywords:
+          - controlled inventory
+          - inventory control
+          - managed inventory records
+      - name: mitigated network breach
+        keywords:
+          - mitigated network breach
+          - contained cyber incident
+          - remediated security breach
+      - name: incident response
+        keywords:
+          - incident response
+          - cyber incident response
+          - network incident response
+  - mosid_family: 00329 - Logistics Officer
+    indicators:
+      - name: coordinated resupply
+        keywords:
+          - coordinated resupply
+          - managed resupply missions
+          - resupply coordination
+      - name: managed supply depot
+        keywords:
+          - managed supply depot
+          - supervised warehouse
+          - ran supply depot
+      - name: maintenance readiness
+        keywords:
+          - maintenance readiness
+          - fleet readiness
+          - readiness reporting
+      - name: equipment serviceability
+        keywords:
+          - equipment serviceability
+          - serviceability reports
+          - equipment availability
+      - name: movement order
+        keywords:
+          - movement order
+          - issued movement order
+          - movement planning order
+      - name: coordinated transport
+        keywords:
+          - coordinated transport
+          - transport coordination
+          - transportation coordination
+  - mosid_family: 00168 - Medical Technician
+    indicators:
+      - name: provided emergency care
+        keywords:
+          - provided emergency care
+          - emergency medical care
+          - pre-hospital care
+      - name: primary care clinic
+        keywords:
+          - primary care clinic
+          - clinic operations
+          - primary care support
+      - name: instructed first aid
+        keywords:
+          - instructed first aid
+          - taught first aid
+          - first aid instructor
+      - name: health education
+        keywords:
+          - health education
+          - preventative health education
+          - delivered health education
+      - name: casualty evacuation
+        keywords:
+          - casualty evacuation
+          - casevac
+          - medical evacuation
+      - name: aeromedical transport
+        keywords:
+          - aeromedical transport
+          - air evacuation
+          - aero-medical transport

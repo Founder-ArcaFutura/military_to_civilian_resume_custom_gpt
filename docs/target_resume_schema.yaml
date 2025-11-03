@@ -1,0 +1,238 @@
+# Target Résumé Schema
+# Version: 0.1.0 (2024-05-09)
+# Each field includes: type, required flag, source, and transformation notes.
+
+metadata:
+  schema_name: "military_civilian_resume"
+  version: "0.1.0"
+  generated_at: "2024-05-09"
+  description: "Structured résumé output derived from MPRR data with sensitive elements removed."
+
+resume:
+  summary:
+    full_name:
+      type: string
+      required: true
+      source: contact records / user input
+      transformation: "Collected directly from member; verify spelling; include accents."
+    preferred_name:
+      type: string
+      required: false
+      source: user input
+      transformation: "Optional alias; display if provided."
+    contact_email:
+      type: string
+      required: true
+      source: consented contact record
+      transformation: "Validate format; ensure consent before publish."
+    contact_phone:
+      type: string
+      required: false
+      source: consented contact record
+      transformation: "Format to E.123; display only if member opts in."
+    location:
+      type: string
+      required: false
+      source: user input / service history last posting
+      transformation: "City, Province/State; do not include street address."
+    security_clearance:
+      type: string
+      required: false
+      source: security_clearance_level
+      transformation: "Display as 'Active <LEVEL> Clearance'; omit expiry details."
+    linkedin_url:
+      type: string
+      required: false
+      source: user input
+      transformation: "Ensure https:// prefix."
+
+  professional_profile:
+    headline:
+      type: string
+      required: true
+      source: derived
+      transformation: "Combine rank translation, MOSID description, and years of experience."
+    summary_bullets:
+      type: array
+      items: string
+      required: true
+      source: derived
+      transformation: "3-5 impact statements highlighting leadership, technical, and mission outcomes."
+
+  experience:
+    type: array
+    required: true
+    items:
+      position_title:
+        type: string
+        required: true
+        source: positions[].title
+        transformation: "Translate to civilian equivalent using lookup table."
+      organization:
+        type: string
+        required: true
+        source: positions[].unit
+        transformation: "Map to recognizable organization (e.g., '1 PPCLI' → '1st Battalion, Princess Patricia's Canadian Light Infantry')."
+      location:
+        type: string
+        required: false
+        source: positions[].location
+        transformation: "City, Country; generalize if classified."
+      start_date:
+        type: string
+        required: true
+        source: positions[].start_date
+        transformation: "ISO-8601 date; month precision allowed."
+      end_date:
+        type: string
+        required: false
+        source: positions[].end_date
+        transformation: "ISO-8601 date; set to 'Present' if null."
+      achievements:
+        type: array
+        items: string
+        required: true
+        source: operational_impacts / awards / deployments
+        transformation: "Convert mission metrics to civilian-friendly accomplishments; remove restricted details."
+
+  education:
+    type: array
+    required: false
+    items:
+      institution:
+        type: string
+        required: true
+        source: education[].institution
+        transformation: "Standardize name per official transcript."
+      credential:
+        type: string
+        required: true
+        source: education[].credential
+        transformation: "Include degree/diploma name and major."
+      graduation_date:
+        type: string
+        required: false
+        source: education[].graduation_date
+        transformation: "ISO-8601; include month/year if day unknown."
+
+  certifications:
+    type: array
+    required: false
+    items:
+      name:
+        type: string
+        required: true
+        source: certifications_active[].name
+        transformation: "Verify against authoritative registry."
+      issuer:
+        type: string
+        required: true
+        source: certifications_active[].issuer
+        transformation: "Normalize issuer name; include acronym."
+      issued_date:
+        type: string
+        required: false
+        source: certifications_active[].issued_date
+        transformation: "ISO-8601; only include if confirmed."
+      expiry_date:
+        type: string
+        required: false
+        source: certifications_active[].expiry_date
+        transformation: "ISO-8601; omit if not applicable."
+
+  skills:
+    type: object
+    required: true
+    fields:
+      technical:
+        type: array
+        items: string
+        required: false
+        source: courses_completed / mosid_description
+        transformation: "Map to civilian technical skill taxonomy."
+      leadership:
+        type: array
+        items: string
+        required: false
+        source: positions / awards
+        transformation: "Summarize command experience and team size."
+      languages:
+        type: array
+        items: string
+        required: false
+        source: languages
+        transformation: "Convert CAF language profile to CEFR (e.g., 'BBB' → 'CEFR B2 English')."
+
+  deployments:
+    type: array
+    required: false
+    items:
+      mission:
+        type: string
+        required: true
+        source: deployments[].mission
+        transformation: "If mission classified, replace with generic theatre description."
+      role:
+        type: string
+        required: true
+        source: deployments[].role
+        transformation: "Translate to civilian functional role."
+      location:
+        type: string
+        required: true
+        source: deployments[].theatre
+        transformation: "Use region/country only; omit exact base."
+      start_date:
+        type: string
+        required: true
+        source: deployments[].start_date
+        transformation: "ISO-8601 date."
+      end_date:
+        type: string
+        required: false
+        source: deployments[].end_date
+        transformation: "ISO-8601 date; allow null for ongoing."
+
+  awards:
+    type: array
+    required: false
+    items:
+      name:
+        type: string
+        required: true
+        source: awards[].name
+        transformation: "Use official award title."
+      year:
+        type: integer
+        required: false
+        source: awards[].date
+        transformation: "Extract year component only."
+      citation:
+        type: string
+        required: false
+        source: awards[].citation
+        transformation: "Include only if unclassified; otherwise omit."
+
+  additional_information:
+    type: object
+    required: false
+    fields:
+      volunteerism:
+        type: array
+        items: string
+        required: false
+        source: remarks / user input
+        transformation: "Curate non-sensitive extracurricular contributions."
+      interests:
+        type: array
+        items: string
+        required: false
+        source: user input
+        transformation: "Optional personal interests for cultural fit."
+      availability:
+        type: string
+        required: false
+        source: user input
+        transformation: "State notice period or relocation preference."
+
+# End of schema

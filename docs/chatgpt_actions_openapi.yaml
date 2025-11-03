@@ -1,0 +1,211 @@
+openapi: 3.1.0
+info:
+  title: CAF Resume Helper API
+  version: 1.0.0
+  description: |
+    REST interface used by the CAF Resume Helper ChatGPT action. It exposes read-only
+    endpoints for retrieving Canadian Armed Forces rank responsibilities and MOSID to
+    civilian National Occupation Classification (NOC) equivalencies.
+servers:
+  - url: https://resume-helper.example.com
+    description: Production deployment serving the ChatGPT action.
+security:
+  - ApiKeyAuth: []
+paths:
+  /v1/ranks/{rankName}:
+    get:
+      operationId: getRankResponsibilities
+      summary: Retrieve responsibilities associated with a CAF rank.
+      parameters:
+        - name: rankName
+          in: path
+          required: true
+          description: Exact CAF rank label (e.g., "Captain").
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Responsibilities for the requested rank.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/RankResponse'
+              examples:
+                example:
+                  value:
+                    rank: Captain
+                    responsibilities:
+                      - Direct and coordinate unit-level operations.
+                      - Mentor subordinate officers and ensure policy compliance.
+        '404':
+          description: The rank name was not found.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotFound'
+  /v1/mosids/{mosidCode}:
+    get:
+      operationId: getMosidProfile
+      summary: Retrieve the civilian equivalencies for a CAF MOSID.
+      parameters:
+        - name: mosidCode
+          in: path
+          required: true
+          description: Five-character MOSID code (e.g., "00005").
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Civilian NOC equivalencies for the requested MOSID.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/MosidResponse'
+              examples:
+                example:
+                  value:
+                    mosid: "00005"
+                    title: Signal Officer
+                    equivalencies:
+                      - noc_code: "21311"
+                        civilian_title: Computer systems manager
+                        task_statements:
+                          - Develop telecommunications network policies.
+                          - Oversee implementation of secure communications systems.
+        '404':
+          description: The MOSID code was not found.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotFound'
+  /v1/mosids:batchLookup:
+    post:
+      operationId: batchMosidLookup
+      summary: Retrieve MOSID profiles for a set of MOSID codes.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/BatchMosidRequest'
+            examples:
+              example:
+                value:
+                  mosid_codes:
+                    - "00005"
+                    - "00162"
+      responses:
+        '200':
+          description: Mapping of MOSID codes to their equivalency payloads.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BatchMosidResponse'
+              examples:
+                example:
+                  value:
+                    results:
+                      "00005":
+                        mosid: "00005"
+                        title: Signal Officer
+                        equivalencies:
+                          - noc_code: "21311"
+                            civilian_title: Computer systems manager
+                            task_statements:
+                              - Develop telecommunications network policies.
+                              - Oversee implementation of secure communications systems.
+                      "00162":
+                        mosid: "00162"
+                        title: Naval Communicator
+                        equivalencies:
+                          - noc_code: "22223"
+                            civilian_title: Electronics service technician
+                            task_statements:
+                              - Maintain shipboard communication circuits.
+                              - Troubleshoot cryptographic distribution equipment.
+components:
+  securitySchemes:
+    ApiKeyAuth:
+      type: apiKey
+      in: header
+      name: X-API-Key
+  schemas:
+    RankResponse:
+      type: object
+      required:
+        - rank
+        - responsibilities
+      properties:
+        rank:
+          type: string
+          description: Canonical CAF rank label.
+        responsibilities:
+          type: array
+          description: Ordered list of responsibility statements tied to the rank.
+          items:
+            type: string
+    MosidResponse:
+      type: object
+      required:
+        - mosid
+        - title
+        - equivalencies
+      properties:
+        mosid:
+          type: string
+          description: MOSID code returned in the response.
+        title:
+          type: string
+          description: Canonical CAF trade title for the MOSID.
+        equivalencies:
+          type: array
+          description: Civilian NOC mappings curated for the MOSID.
+          items:
+            $ref: '#/components/schemas/MosidEquivalency'
+    MosidEquivalency:
+      type: object
+      required:
+        - noc_code
+        - civilian_title
+        - task_statements
+      properties:
+        noc_code:
+          type: string
+          description: Government of Canada National Occupation Classification code.
+        civilian_title:
+          type: string
+          description: Civilian job title aligned to the MOSID skills.
+        task_statements:
+          type: array
+          items:
+            type: string
+          description: Task statements published for the NOC profile.
+    BatchMosidRequest:
+      type: object
+      required:
+        - mosid_codes
+      properties:
+        mosid_codes:
+          type: array
+          minItems: 1
+          maxItems: 25
+          description: Unique MOSID codes to resolve in one call.
+          items:
+            type: string
+    BatchMosidResponse:
+      type: object
+      required:
+        - results
+      properties:
+        results:
+          type: object
+          additionalProperties:
+            $ref: '#/components/schemas/MosidResponse'
+          description: Mapping of MOSID code strings to MOSID response payloads.
+    NotFound:
+      type: object
+      properties:
+        detail:
+          type: string
+          description: Human-readable explanation of why the resource was not found.
+          example: MOSID code 99999 is not present in the CAF Resume Helper dataset.

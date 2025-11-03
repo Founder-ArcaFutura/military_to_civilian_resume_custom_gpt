@@ -1,0 +1,114 @@
+version: 0.2.0
+families:
+  - mosid_family: 00300 - Infantry Officer
+    summary: Leadership-focused roles overseeing combat-ready teams and training operations.
+    templates:
+      - trigger: deployment_leadership
+        source_indicators:
+          - led section
+          - platoon commander
+        civilian_translation: >-
+          Directed a {team_size}-person operational team to deliver mission objectives under austere conditions, coordinating logistics, readiness, and risk mitigation across {operation_scope}.
+        default_values:
+          team_size: 35
+          operation_scope: joint exercises
+      - trigger: training_management
+        source_indicators:
+          - oversaw training
+          - readiness program
+        civilian_translation: >-
+          Managed end-to-end training programs covering {curriculum_scope}, aligning resources, scheduling, and evaluation metrics to sustain {readiness_goal} readiness levels.
+        default_values:
+          curriculum_scope: weapons proficiency and field leadership
+          readiness_goal: high
+      - trigger: mission_planning
+        source_indicators:
+          - developed battle procedure
+          - produced op orders
+        civilian_translation: >-
+          Developed detailed operational plans translating strategic intent into executable tasks, synchronizing {stakeholder_scope} stakeholders and contingency plans under compressed timelines.
+        default_values:
+          stakeholder_scope: cross-functional military and civilian
+  - mosid_family: 00109 - Signals Technician
+    summary: Communications specialists responsible for secure, resilient networks and support systems.
+    templates:
+      - trigger: network_operations
+        source_indicators:
+          - maintained communications suite
+          - deployed signals detachment
+        civilian_translation: >-
+          Maintained and deployed secure voice and data infrastructure supporting {user_base} users, resolving incidents within {sla} and documenting continuity procedures.
+        default_values:
+          user_base: 250+
+          sla: mission timelines
+      - trigger: equipment_accountability
+        source_indicators:
+          - equipment custodian
+          - controlled inventory
+        civilian_translation: >-
+          Administered lifecycle management for {equipment_scope}, implementing tracking controls that prevented loss and ensured compliance with inspection standards.
+        default_values:
+          equipment_scope: tactical communications assets
+      - trigger: cybersecurity_response
+        source_indicators:
+          - mitigated network breach
+          - incident response
+        civilian_translation: >-
+          Led cybersecurity incident response activities by triaging alerts, containing threats, and documenting lessons learned to harden {network_scope} networks.
+        default_values:
+          network_scope: deployed and garrison
+  - mosid_family: 00329 - Logistics Officer
+    summary: Operational logisticians orchestrating supply chains, maintenance, and movement planning.
+    templates:
+      - trigger: supply_chain_management
+        source_indicators:
+          - coordinated resupply
+          - managed supply depot
+        civilian_translation: >-
+          Coordinated end-to-end supply chain operations across {region_scope}, aligning transportation, warehousing, and inventory controls to meet dynamic demand signals.
+        default_values:
+          region_scope: national and expeditionary theatres
+      - trigger: maintenance_program
+        source_indicators:
+          - maintenance readiness
+          - equipment serviceability
+        civilian_translation: >-
+          Directed preventive and corrective maintenance programs for {asset_scope}, analyzing performance data to prioritize work orders and sustain {readiness_level} availability.
+        default_values:
+          asset_scope: vehicle and support equipment fleets
+          readiness_level: 95%
+      - trigger: movement_control
+        source_indicators:
+          - movement order
+          - coordinated transport
+        civilian_translation: >-
+          Managed strategic movement plans covering personnel and freight, contracting carriers, scheduling convoys, and tracking execution to maintain compliance with {regulatory_scope} requirements.
+        default_values:
+          regulatory_scope: defence and civilian transportation regulations
+  - mosid_family: 00168 - Medical Technician
+    summary: Clinicians delivering front-line medical support, health surveillance, and patient transport.
+    templates:
+      - trigger: clinical_care
+        source_indicators:
+          - provided emergency care
+          - primary care clinic
+        civilian_translation: >-
+          Delivered urgent and primary care services for {patient_volume} patients per month, documenting treatment plans and coordinating follow-up with multidisciplinary teams.
+        default_values:
+          patient_volume: 120+
+      - trigger: medical_training
+        source_indicators:
+          - instructed first aid
+          - health education
+        civilian_translation: >-
+          Designed and facilitated medical readiness training covering {training_topics}, evaluating competency and implementing remediation plans to ensure unit certification.
+        default_values:
+          training_topics: trauma response and preventative health
+      - trigger: evacuation_coordination
+        source_indicators:
+          - casualty evacuation
+          - aeromedical transport
+        civilian_translation: >-
+          Coordinated patient evacuation missions, liaising with clinical authorities and transport units to ensure timely movement and continuity of care during {evacuation_scope} operations.
+        default_values:
+          evacuation_scope: domestic and deployed

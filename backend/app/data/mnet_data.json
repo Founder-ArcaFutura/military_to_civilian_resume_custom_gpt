@@ -1,0 +1,731 @@
+{
+    "00005: CRMN": [
+        {
+            "noc_code": "14111",
+            "civilian_title": "Data entry clerks",
+            "task_statements": [
+                "Data entry clerks perform some or all of the following duties:",
+                "Receive and register invoices, forms, records and other documents for data capture",
+                "Input data into computerized databases, spreadsheets or other templates using a keyboard, mouse, or optical scanner, speech recognition software or other data entry tools",
+                "Import and/or export data between different kinds of software",
+                "Verify accuracy and completeness of data",
+                "Identify, label and organize electronic storage media",
+                "Maintain libraries of electronic storage media."
+            ]
+        },
+        {
+            "noc_code": "42101",
+            "civilian_title": "Firefighters",
+            "task_statements": [
+                "Firefighters perform some or all of the following duties:",
+                "Respond to fire alarms and other calls for assistance, such as automobile and industrial accidents, bomb threats and other emergencies",
+                "Rescue victims from burning buildings and accident sites",
+                "Control and extinguish fires using manual and power equipment, such as axes, water hoses, aerial ladders and hydraulic equipment and various firefighting chemicals",
+                "Administer first aid and other assistance",
+                "Ensure proper operation and maintenance of firefighting equipment",
+                "Prepare written reports on fire incidents",
+                "Inform and educate the public on fire prevention",
+                "Train to maintain high level of physical fitness",
+                "Assist the public, the police and emergency organizations during times of major disasters",
+                "May participate as members of a trauma or emergency response team and provide paramedical aid to accident victims or ill persons",
+                "May supervise and co-ordinate the work of other firefighters",
+                "May conduct building inspections to ensure compliance with fire code."
+            ]
+        },
+        {
+            "noc_code": "45100",
+            "civilian_title": "Student monitors, crossing guards and related occupations",
+            "task_statements": [
+                "The following is a summary of main duties for some occupations in this unit group:",
+                "Security guards",
+                "Control access to establishments, operate security control-room equipment and patrol assigned areas to guard against theft, vandalism and fire",
+                "Enforce regulations to maintain order and resolve conflicts and to monitor establishment activities",
+                "Ensure safety and emergency procedures are followed",
+                "Issue passes and direct visitors to appropriate areas, check age identification of patrons, and perform security checks of passengers and luggage at airports.",
+                "Armoured car guards",
+                "Drive and guard armoured trucks, pick-up and deliver cash and valuables to banks, automated teller machines and retail establishments.",
+                "Corporate security officers",
+                "Investigate unlawful acts of employees or patrons of establishments",
+                "Recommend security systems such as electronic detection devices and access devices.",
+                "Private investigators",
+                "Conduct investigations to locate missing persons",
+                "Obtain information for use in civil and criminal litigation matters or for other purposes",
+                "May also conduct polygraph tests (integrity surveys) for clients.",
+                "Retail loss prevention officers",
+                "Prevent and detect shoplifting and theft in retail establishments."
+            ]
+        },
+        {
+            "noc_code": "73400",
+            "civilian_title": "Heavy equipment operators",
+            "task_statements": [
+                "Heavy equipment operators perform some or all of the following duties:",
+                "Operate heavy equipment such as backhoes, bulldozers, loaders and graders to excavate, move, load and grade earth, rock, gravel or other materials during construction and related activities",
+                "Operate bulldozers or other heavy equipment to clear brush and stumps prior to logging activities and to build roads at logging and surface mining sites",
+                "Operate heavy equipment with pile driver head to drive piling into earth to provide support for buildings, bridges or other structures",
+                "Operate heavy dredging equipment to deepen waterways or reclaim earth fill",
+                "Operate heavy paving and surfacing equipment to lay, spread or compact concrete, asphalt and other surface materials during highway and road construction",
+                "Operate power shovels to excavate rock, ore or other materials from open-pit mines, strip mines, quarries or construction pits",
+                "Operate heavy equipment to move, load and unload cargo",
+                "Conduct pre-operational checks on equipment and clean, lubricate and refill equipment."
+            ]
+        }
+    ],
+    "00008: ARTYMN - FD": [
+        {
+            "noc_code": "75212",
+            "civilian_title": "Public works and maintenance labourers",
+            "task_statements": [
+                "Public works and maintenance labourers perform some or all of the following duties:",
+                "Clean and maintain sidewalks, streets, roads and public grounds of municipality and other areas, working as member of crew",
+                "Sweep debris and remove snow from streets, sidewalks, building grounds and other areas, and load snow and debris into carts or trucks",
+                "Shovel cement and other materials into cement mixers, spread concrete and asphalt on road surfaces using shovels, rakes and hand tampers, and perform other activities to assist in maintenance and repair of roads",
+                "Spread sand or salt on sidewalks for snow and ice control",
+                "Dig ditches and trenches using shovels and other hand tools",
+                "Operate jackhammers and drills to break up pavement",
+                "Load and unload trucks with supplies and equipment",
+                "Collect money from coin boxes of parking meters along established route",
+                "Collect and load refuse on garbage trucks",
+                "Assist equipment operators to secure attachments to equipment or trucks",
+                "Assist in routine maintenance and repair of equipment",
+                "Assist skilled tradespersons such as carpenters, plumbers and mechanics",
+                "May operate mobile sidewalk-cleaning equipment."
+            ]
+        }
+    ],
+    "00009: ARTYMN - AD": [
+        {
+            "noc_code": "75212",
+            "civilian_title": "Public works and maintenance labourers",
+            "task_statements": [
+                "Public works and maintenance labourers perform some or all of the following duties:",
+                "Clean and maintain sidewalks, streets, roads and public grounds of municipality and other areas, working as member of crew",
+                "Sweep debris and remove snow from streets, sidewalks, building grounds and other areas, and load snow and debris into carts or trucks",
+                "Shovel cement and other materials into cement mixers, spread concrete and asphalt on road surfaces using shovels, rakes and hand tampers, and perform other activities to assist in maintenance and repair of roads",
+                "Spread sand or salt on sidewalks for snow and ice control",
+                "Dig ditches and trenches using shovels and other hand tools",
+                "Operate jackhammers and drills to break up pavement",
+                "Load and unload trucks with supplies and equipment",
+                "Collect money from coin boxes of parking meters along established route",
+                "Collect and load refuse on garbage trucks",
+                "Assist equipment operators to secure attachments to equipment or trucks",
+                "Assist in routine maintenance and repair of equipment",
+                "Assist skilled tradespersons such as carpenters, plumbers and mechanics",
+                "May operate mobile sidewalk-cleaning equipment."
+            ]
+        }
+    ],
+    "00010: INFMN": [],
+    "00015: LMN": [
+        {
+            "noc_code": "72204",
+            "civilian_title": "Telecommunication line technician",
+            "task_statements": [
+                "Telecommunications line and cable workers perform some or all of the following duties:",
+                "Cable television service technicians perform some or all of the following duties:",
+                "Install, remove, maintain and repair aerial and underground telephone and other telecommunication transmission and distribution lines, cables and associated hardware",
+                "Communicate with subscribers and company personnel to determine work assignments",
+                "Connect, disconnect and relocate cable outlets, install splitters, converters, decoders, terminals, digital boxes, satellite and pay TV equipment, and install other cable hardware and systems at subscriber's premises",
+                "Install (but do not repair or maintain) cable television lines and cables",
+                "Splice and repair various types and sizes of telephone and other telecommunication cables including single line, coaxial and fibre optic",
+                "Install cable modems, routers and software to enable Internet access at subscriber's premises",
+                "Inspect, test and repair cable and satellite television signals and associated equipment at subscriber's premises.",
+                "Inspect and test telecommunication transmission lines and cables for transmission characteristics and to locate faults",
+                "Analyze and record test results",
+                "Cable television maintenance technicians perform some or all of the following duties:",
+                "Maintain and repair main aerial and underground coaxial and fibre optic cable television transmission lines, trunking and related distribution and interconnecting systems including power supplies and amplifiers",
+                "Climb and work aloft on poles, ladders or other support structures or work in confined spaces such as trenches, tunnels and crawl spaces",
+                "Inspect, monitor, test and adjust cable transmission and distribution systems",
+                "Communicate with other workers to co-ordinate the preparation and completion of work assignments",
+                "Assist in the erection and removal of telecommunication poles, towers and associated support structures",
+                "Repair or replace faulty cables, power supplies, amplifiers and other associated transmission and distribution equipment",
+                "Climb and work aloft on poles, ladders or other support structures",
+                "May operate excavation machinery and other heavy equipment.",
+                "Communicate with other workers to co-ordinate the preparation and completion of work assignments."
+            ]
+        }
+    ],
+    "00019: AES OP": [
+        {
+            "noc_code": "12013",
+            "civilian_title": "Supervisors, supply chain, tracking and scheduling coordination occupations",
+            "task_statements": [
+                "Supervisors in this unit group perform some or all of the following duties:",
+                "Co-ordinate, assign and review the work of clerks engaged in the following duties: shipping, receiving, storing, distributing and maintaining inventories of materials, parts and products; processing purchasing transactions; co-ordinating production work; dispatching crews; scheduling transportation crews and routes; operating airport ramp servicing vehicles; and other related activities",
+                "Plan, organize and oversee operational logistics of the organization, establish work schedules and procedures, resolve work-related issues, prepare and submit progress and other reports and co-ordinate activities with other supply-chain work units or departments",
+                "Train workers in job duties, safety procedures and company policies",
+                "Requisition supplies and materials",
+                "Ensure smooth operation of computer systems, equipment and machinery and arrange for maintenance and repair work",
+                "May perform the same duties as workers supervised."
+            ]
+        },
+        {
+            "noc_code": "13201",
+            "civilian_title": "Production and transportation logistics coordinators",
+            "task_statements": [
+                "Dispatchers perform some or all of the following duties:",
+                "Production logistics co-ordinators perform some or all of the following duties:",
+                "Receive requests for emergency assistance or service and contact ambulances, police and fire departments, tow-trucks, and utility crews",
+                "Compile detailed worksheets and specifications from customer's order",
+                "Estimate type and quantity of materials and labour required for production, construction and other projects",
+                "Process and transmit information and instructions to co-ordinate the activities of vehicle operators, crews and equipment using a variety of computer-aided communications and dispatching equipment",
+                "Dispatch personnel according to written schedules and work orders, or as required by emergency situations",
+                "Consult with production supervisor to schedule production runs in a cost and time-efficient manner",
+                "Advise vehicle operators of route and traffic problems such as construction, accidents, congestion, weather conditions, weight and size restrictions and other information",
+                "Meet regularly with other production clerks, warehouse, production and construction supervisors and purchasing and inventory clerks to co-ordinate activities between warehouses and production floors or construction sites",
+                "Operate radio equipment to communicate with ships, aircraft, mining crews, offshore oil rigs, logging camps and other remote operations",
+                "Co-ordinate and monitor logistics of the movement of parts, supplies and materials within an establishment and ensure that supplies, materials and products are shipped and received on schedule",
+                "Monitor personnel workloads and locations",
+                "Prepare and maintain various reports on the progress of work, materials used, rates of production and other production information, using manual or computerized systems.",
+                "Maintain vehicle operator work records using computerized or manual methods and ensure time sheets and payroll summaries are completed accurately",
+                "Maintain computer and manual records of mileage, fuel use, repairs and other expenses, and generate reports."
+            ]
+        },
+        {
+            "noc_code": "14405",
+            "civilian_title": "Transportation route and crew schedulers",
+            "task_statements": [
+                "Transportation route and crew schedulers perform some or all of the following duties:",
+                "Review schedule requisitions, passenger counts and cargo, running times, distances, personnel availability and other pertinent information to establish schedule parameters",
+                "Design new or modify existing schedules using computer software or other methods",
+                "Incorporate into route plan factors such as peak travel periods, holidays, special events and construction with emphasis on time and cost efficiency",
+                "Assign personnel to equipment and routes and schedule work shifts",
+                "Compile equipment and personnel records, including hours in service, distances, maintenance, repairs required and other data, to produce operating reports",
+                "May prepare user guides and other public service information."
+            ]
+        },
+        {
+            "noc_code": "22101",
+            "civilian_title": "Geological and mineral technologists and technicians",
+            "task_statements": [
+                "Geological and mineral technologists and technicians perform some or all of the following duties:",
+                "Geological and mineral technologists",
+                "Conduct or direct geological, geophysical, geochemical, hydrographic or oceanographic surveys, prospecting field trips, exploratory drilling, well logging or underground mine survey programs",
+                "Configure, operate and maintain geophysical survey and well logging instruments and equipment",
+                "Prepare notes, sketches, geological maps and cross sections",
+                "Prepare, transcribe or analyze seismic, gravimetric, well log or other geophysical and survey data",
+                "Assist engineers and geologists in the evaluation and analysis of petroleum and mineral reservoirs",
+                "Prepare or supervise the preparation of rock, mineral or metal samples and perform physical and chemical laboratory tests",
+                "Conduct or assist in environmental audits, in the design of measures to minimize undesirable environmental effects of new or expanded mining and oil and gas operations, and in the development of waste management and other related environmental protection procedures",
+                "May supervise oil and gas well drilling, well completions and work-overs",
+                "May conduct or supervise studies and programs related to mine development, mining methods, mine ventilation, lighting, drainage and ground control",
+                "May assist engineers and metallurgists in specifying material selection, metal treatments or corrosion protection systems",
+                "May assist hydrogeologists in evaluating groundwater and well circulation and in report preparation",
+                "May develop specifications for heat treatment of metals or for welding, design welding fixtures, troubleshoot welding processes or quality problems and supervise welding projects",
+                "May co-ordinate crew members' activities during seismic tests.",
+                "Geological and mineral technicians",
+                "Participate in geological, geophysical, geochemical, hydrographic or oceanographic surveys, prospecting field trips, exploratory drilling, well logging or underground mine survey programs and in environmental audits and related environmental protection activities",
+                "Operate and maintain geophysical survey and well logging instruments and equipment",
+                "Prepare notes, sketches, geological maps and cross sections",
+                "Assist in preparing, transcribing or analyzing seismic, gravimetric, well log or other geophysical and survey data",
+                "Assist in the preparation of rock, mineral or metal samples and in conducting physical and chemical laboratory tests",
+                "Assist in hydrogeological field and laboratory studies and in preparation of reports",
+                "Carry out a limited range of other technical functions in support of geology, geophysics and petroleum and mining engineering."
+            ]
+        },
+        {
+            "noc_code": "45100",
+            "civilian_title": "Student monitors, crossing guards and related occupations",
+            "task_statements": [
+                "The following is a summary of main duties for some occupations in this unit group:",
+                "Security guards",
+                "Control access to establishments, operate security control-room equipment and patrol assigned areas to guard against theft, vandalism and fire",
+                "Enforce regulations to maintain order and resolve conflicts and to monitor establishment activities",
+                "Ensure safety and emergency procedures are followed",
+                "Issue passes and direct visitors to appropriate areas, check age identification of patrons, and perform security checks of passengers and luggage at airports.",
+                "Armoured car guards",
+                "Drive and guard armoured trucks, pick-up and deliver cash and valuables to banks, automated teller machines and retail establishments.",
+                "Corporate security officers",
+                "Investigate unlawful acts of employees or patrons of establishments",
+                "Recommend security systems such as electronic detection devices and access devices.",
+                "Private investigators",
+                "Conduct investigations to locate missing persons",
+                "Obtain information for use in civil and criminal litigation matters or for other purposes",
+                "May also conduct polygraph tests (integrity surveys) for clients.",
+                "Retail loss prevention officers",
+                "Prevent and detect shoplifting and theft in retail establishments."
+            ]
+        },
+        {
+            "noc_code": "53110",
+            "civilian_title": "Photographers",
+            "task_statements": [
+                "Photographers perform some or all of the following duties:",
+                "Study requirements of a particular assignment and decide on type of camera, film, lighting and background accessories to be used",
+                "Determine picture composition, make technical adjustments to equipment and photograph subject",
+                "May operate scanners to transfer photographic images to computers",
+                "May operate computers to manipulate photographic images",
+                "May adapt existing photographic images and create new digitized images to be included in multimedia/newmedia products",
+                "May use delicate instruments, such as optical microscopes attached to cameras",
+                "May process exposed film",
+                "May use airbrush, computer or other techniques to retouch negatives",
+                "Medical photographers may work closely with medical illustrators.",
+                "Photographers may specialize in areas such as portrait photography, commercial photography, scientific photography, forensic photography, medical photography, digitized photography, multimedia photography or photojournalism."
+            ]
+        }
+    ],
+    "00021: FLT ENGR": [
+        {
+            "noc_code": "22313",
+            "civilian_title": "Aircraft instrument, electrical and avionics mechanics, technicians and inspectors",
+            "task_statements": [
+                "The following is a summary of main duties for some occupations in this unit group:",
+                "Aircraft instrument mechanics and technicians repair and overhaul, install, calibrate and test aircraft instruments.",
+                "Aircraft electrical mechanics and technicians repair and overhaul, modify, install and test aircraft electrical systems and equipment.",
+                "Avionics mechanics and technicians troubleshoot, repair and overhaul, test, modify, install and inspect aircraft electronic systems and components including communications, navigation, and autoflight equipment.",
+                "Avionics inspectors inspect and test aircraft instrument, electrical and avionics systems and ensure that the installation, maintenance, repair and overhaul of these systems meet Transport Canada and company standards of performance and safety.",
+                "Aircraft mechanics and technicians who work in repair and overhaul shops service and test electrical, electronic and instrument components.",
+                "Avionics mechanics and technicians who work in maintenance hangars troubleshoot, repair, install and inspect aircraft systems and components."
+            ]
+        },
+        {
+            "noc_code": "45100",
+            "civilian_title": "Student monitors, crossing guards and related occupations",
+            "task_statements": [
+                "The following is a summary of main duties for some occupations in this unit group:",
+                "Security guards",
+                "Control access to establishments, operate security control-room equipment and patrol assigned areas to guard against theft, vandalism and fire",
+                "Enforce regulations to maintain order and resolve conflicts and to monitor establishment activities",
+                "Ensure safety and emergency procedures are followed",
+                "Issue passes and direct visitors to appropriate areas, check age identification of patrons, and perform security checks of passengers and luggage at airports.",
+                "Armoured car guards",
+                "Drive and guard armoured trucks, pick-up and deliver cash and valuables to banks, automated teller machines and retail establishments.",
+                "Corporate security officers",
+                "Investigate unlawful acts of employees or patrons of establishments",
+                "Recommend security systems such as electronic detection devices and access devices.",
+                "Private investigators",
+                "Conduct investigations to locate missing persons",
+                "Obtain information for use in civil and criminal litigation matters or for other purposes",
+                "May also conduct polygraph tests (integrity surveys) for clients.",
+                "Retail loss prevention officers",
+                "Prevent and detect shoplifting and theft in retail establishments."
+            ]
+        },
+        {
+            "noc_code": "72020",
+            "civilian_title": "Contractors and supervisors, mechanic trades",
+            "task_statements": [
+                "Contractors and supervisors in this unit group perform some or all of the following duties:",
+                "Supervise, co-ordinate and schedule the activities of workers who repair and maintain aircraft, railway locomotives and cars, industrial machinery and equipment, construction and other heavy equipment, textile equipment, printing machines, heating equipment and furnaces, transformers and other electrical equipment, motor vehicles, air-conditioning and refrigeration equipment, electric appliances and other equipment, such as motorcycles, outboard motors and snowmobiles",
+                "Establish methods to meet work schedules and co-ordinate work activities with other departments",
+                "Requisition materials and supplies",
+                "Resolve work problems and recommend work measures to improve productivity",
+                "Train or arrange for training of workers",
+                "Recommend personnel actions such as hiring and promotions",
+                "Ensure that standards for safe working conditions are observed",
+                "Prepare production and other reports",
+                "May manage the operations of their own companies",
+                "May also supervise, co-ordinate and schedule the activities of related apprentices, helpers and labourers."
+            ]
+        },
+        {
+            "noc_code": "72404",
+            "civilian_title": "Aircraft mechanics and aircraft inspectors",
+            "task_statements": [
+                "Aircraft mechanics perform some or all of the following duties:",
+                "Troubleshoot aircraft structural, mechanical or hydraulic systems to identify problems and adjust and repair systems according to specifications, technical drawings, manuals and established procedures",
+                "Repair and overhaul aircraft structural, mechanical or hydraulic systems",
+                "Install or modify aircraft engines and mechanical, hydraulic, flight control, fuel and pneumatic systems",
+                "Dismantle airframes, aircraft engines or other aircraft systems for repair, overhaul and cleaning, and reassemble",
+                "Perform and document routine maintenance",
+                "Order and maintain inventory of parts and supplies.",
+                "Aircraft mechanics usually specialize in working on specific aircraft systems such as engines, engine accessories, airframes, propellers, mechanical components or hydraulic systems and specific kinds of aircraft, such as light aircraft, jet transports and helicopters.",
+                "Aircraft inspectors perform some or all of the following duties:",
+                "Inspect structural and mechanical systems of aircraft and ensure that these systems meet Transport Canada and company standards of performance and safety",
+                "Inspect work of aircraft mechanics performing maintenance, repair and overhaul, or modification of aircraft and aircraft mechanical systems to ensure adherence to standards and procedures",
+                "Maintain detailed repair, inspection and certification records of aircrafts."
+            ]
+        },
+        {
+            "noc_code": "72600",
+            "civilian_title": "Air pilots, flight engineers and flying instructors",
+            "task_statements": [
+                "Agricultural service contractors perform some or all the following duties:",
+                "Air pilots, flight engineers and flying instructors perform some or all of the following duties:",
+                "Provide agricultural livestock services such as artificial insemination, spraying or shearing of livestock or disinfecting pens, barns or poultry houses",
+                "Air pilots",
+                "Conduct pre-flight inspection of aircraft and check passenger and cargo distribution to ensure that weight and balance specifications are met",
+                "Provide agricultural crop services such as plowing, irrigating, cultivating, spraying or harvesting",
+                "Assist in the development and implementation of farm safety and bio-security procedures",
+                "Co-ordinate flight activities with ground crews and air-traffic control, inform crew members of flight and test procedures and direct activities of aircraft crew during flights",
+                "Contact control towers for takeoff clearances, arrival instructions and other information",
+                "Hire and train workers",
+                "Conduct in-flight tests and monitor functioning of aircraft equipment and systems during flights, maintain communications with flight dispatchers and weather forecasters and respond to and report in-flight emergencies and malfunctions",
+                "Negotiate the terms of services to be provided",
+                "Prepare flight evaluation reports",
+                "Maintain financial and operational records",
+                "May participate in the provision of services or in the operation of machinery and equipment.",
+                "Train pilots to use new equipment, or prepare them for examinations to re-validate or upgrade existing licences",
+                "May fly new or experimental planes to examine their flight performance and safety",
+                "Farm supervisors perform some or all of the following duties:",
+                "May participate in search and rescue operations, forest firefighting, aerial surveying, crop dusting and other services.",
+                "Co-ordinate, assign and supervise the work of general farm workers and harvesting labourers",
+                "Supervise and oversee breeding and other livestock-related programs",
+                "Flight engineers",
+                "Inspect aircraft prior to takeoff according to pre-flight checklist and verify passenger and cargo distribution to ensure that weight and balance specifications are met",
+                "Supervise, monitor and enforce procedures to maintain animal and crop health and welfare",
+                "Assist air pilots in monitoring aircraft systems, equipment and functions during flight",
+                "Supervise and oversee growing and other crop-related operations",
+                "Make in-flight repairs, such as replacing fuses and adjusting instruments, and follow emergency procedures to compensate for equipment malfunction or failure",
+                "Supervise maintenance of infrastructure, equipment, and supplies",
+                "Perform post-flight inspections, record equipment malfunctions and corrective actions taken during flight and report required repairs to ground maintenance personnel.",
+                "Develop work schedules and establish procedures",
+                "Ensure farm safety, food safety and security and bio-security procedures are followed",
+                "Flying instructors",
+                "Instruct student pilots in procedures and techniques of flying aircraft and in ground-school subjects such as navigation, radio procedures and flying regulations",
+                "Maintain quality control and production records",
+                "Train licensed pilots for additional certification.",
+                "May perform general farm duties.",
+                "Farm supervisors may specialize in areas such as dairy, poultry, swine, beef, sheep, equine, fruit, vegetable, mixed or other specialty farming.",
+                "Specialized livestock workers perform some or all of the following duties:",
+                "Formulate feeding programs",
+                "Implement pasture or pen breeding programs",
+                "Follow safety and bio-security procedures",
+                "Recognize and treat certain livestock health problems",
+                "Maintain livestock performance records",
+                "Select livestock for sale",
+                "Train horses",
+                "Perform general farm duties",
+                "May supervise general farm workers.",
+                "Specialized livestock workers usually specialize in one type of farm animal such as beef cattle, dairy cattle, poultry or swine."
+            ]
+        },
+        {
+            "noc_code": "75119",
+            "civilian_title": "Other trades helpers and labourers",
+            "task_statements": [
+                "Trade helpers and labourers in this unit group perform some or all of the following duties:",
+                "Move tools, equipment and other materials to and from work areas",
+                "Assist in splicing overhead and underground communications and electric power transmission cables",
+                "Assist in repairing, maintaining and installing industrial machinery and equipment",
+                "Assist in repairing, maintaining and installing refrigeration, heating and air conditioning equipment",
+                "Assist in repairing, maintaining and installing elevators",
+                "Assist in repairing and maintaining stationary electric power generating and distribution equipment",
+                "Assist in mechanical, electrical and body repairs of aircraft, railway cars, automobiles, trucks, buses, heavy equipment and motorcycles",
+                "Assist in repairing electrical appliances, small engines or other similar equipment",
+                "Mix fertilizers, herbicides and pesticides and load mixture into airplane for aerial spraying",
+                "Assist in land surveying activities, such as holding or moving stakes and rods, clearing brush and debris from line of survey and transporting surveying tools to work area",
+                "Perform other labouring and elemental tasks as required."
+            ]
+        },
+        {
+            "noc_code": "92023",
+            "civilian_title": "Supervisors, other mechanical and metal products manufacturing",
+            "task_statements": [
+                "Supervisors in this unit group perform some or all of the following duties:",
+                "Supervise, co-ordinate and schedule activities of workers who assemble and inspect products such as aircraft, buses, heavy trucks, transmissions, automobile engines and refrigeration and heating equipment",
+                "Establish methods to meet work schedules and co-ordinate work activities with other departments",
+                "Resolve work problems and recommend measures to improve productivity and product quality",
+                "Requisition materials and supplies",
+                "Train staff in job duties, safety procedures and company policies",
+                "Recommend personnel actions such as hirings and promotions",
+                "Prepare production and other reports",
+                "May set up machines and equipment."
+            ]
+        }
+    ],
+    "00099: INT OP": [
+        {
+            "noc_code": "10011",
+            "civilian_title": "Human resources managers",
+            "task_statements": []
+        },
+        {
+            "noc_code": "10019",
+            "civilian_title": "Other administrative services managers",
+            "task_statements": [
+                "Court officers perform some or all of the following duties:",
+                "Co-ordinate administrative services and establish work priorities for court staff",
+                "Schedule court trials and arrange pre-trial conferences and hearings",
+                "Call courts of law to order, read charges and take pleas from defendants",
+                "Record court commencement, trial proceedings and judgements",
+                "Collect and record sheriff fees, transcription fees and other court administrative and services fees",
+                "Oversee the maintenance of judicial court records",
+                "Assist in preparing annual budgets",
+                "May be justices of the peace.",
+                "Justices of the peace perform some or all of the following duties:",
+                "Issue subpoenas, summonses and warrants, including search warrants",
+                "Receive affidavits, declarations and affirmations",
+                "Administer oaths",
+                "Conduct bail hearings",
+                "Release defendants on judges' orders and explain rights and obligations",
+                "Hear evidence at trials on summary conviction offences and may preside over trials of criminal offences at the discretion of the chief judge of the jurisdiction or as provided for in federal, provincial or territorial statutes",
+                "Perform civil marriages."
+            ]
+        },
+        {
+            "noc_code": "10022",
+            "civilian_title": "Advertising, marketing and public relations managers",
+            "task_statements": [
+                "Specialists in advertising, marketing and public relations perform some or all of the following duties:",
+                "Assess characteristics of products or services to be promoted and advise on the advertising needs of an establishment",
+                "Advise clients on advertising or sales promotion strategies",
+                "Develop and implement advertising campaigns appropriate for print or electronic media",
+                "Gather, research and prepare communications material for internal and external audiences",
+                "Develop, implement and evaluate communications strategies and programs designed to inform clients, employees and the general public of initiatives and policies of businesses, governments and other organizations",
+                "Conduct public opinion and attitude surveys to identify the interests and concerns of key groups served by their organization",
+                "Prepare or oversee preparation of reports, briefs, bibliographies, speeches, presentations, Web sites and press releases",
+                "Develop and organize workshops, meetings, ceremonies and other events for publicity, fundraising and information purposes",
+                "Prepare and deliver educational and publicity programs and informational materials to increase awareness of museums, galleries and other tourist attractions",
+                "Initiate and maintain contact with the media",
+                "Arrange interviews and news conferences",
+                "Act as spokesperson for an organization and answer written and oral inquiries",
+                "Co-ordinate special publicity events and promotions for internal and external audiences",
+                "Assist in the preparation of brochures, reports, newsletters and other material",
+                "Represent and act as an agent for talented individuals or individuals with specific occupational expertise",
+                "Prepare or oversee preparation of sports, literary, performance or other contracts.",
+                "Literary agents specialize in representing specific types of authors and writers. Performance agents specialize in representing singers, musicians, actors or other performers. Sports agents specialize in representing specific athletes or sports teams."
+            ]
+        },
+        {
+            "noc_code": "12111",
+            "civilian_title": "Health information management occupations",
+            "task_statements": [
+                "Records management technicians perform some or all of the following duties:",
+                "Health information management technicians and related workers perform some or all of the following duties:",
+                "Classify and code diseases according to an established classification system",
+                "Implement and update records classification, retention and disposal scheduling plans",
+                "Collect, code, cross-reference and store health records and related information",
+                "Classify, code, cross-reference, log and store records",
+                "Develop document inventories and maintain indexes for classification systems",
+                "Abstract, assemble and analyze clinical data and related demographic information from health records according to established policies and procedures",
+                "Operate information systems to maintain indexes for classification systems and to manage and retrieve health records information",
+                "Operate information retrieval systems to research and extract records according to established guidelines in response to requests",
+                "Prepare medical, social and administrative statistics",
+                "Label, prepare and transfer information files according to established records management life-cycle procedures and schedules",
+                "Maintain access lists for security classified records",
+                "May supervise other health information management technicians and related workers.",
+                "Compile statistics and reports on activities within records management services."
+            ]
+        },
+        {
+            "noc_code": "14301",
+            "civilian_title": "Correspondence, publication and regulatory clerks",
+            "task_statements": [
+                "The following is a summary of main duties for some occupations in this unit group:",
+                "Classified advertising clerks receive customers' orders for classified advertising, write and edit copy, calculate advertising costs and bill customers.",
+                "Correspondence clerks write business and government correspondence such as replies to requests for information and assistance, damage claims, credit and billing enquiries and service complaints.",
+                "Editorial assistants and publication clerks assist in the preparation of periodicals, advertisements, catalogues, directories and other material for publication; proofread material; verify facts and conduct research.",
+                "Proofreaders read material prior to publication to detect and mark for correction any grammatical, typographical or compositional errors within tight deadlines.",
+                "Readers and press clippers read newspapers, magazines, press releases and other publications to locate and file articles of interest to staff and clients.",
+                "Regulatory clerks compile, verify, record and process applications, licences, permits, contracts, registrations, requisitions and other forms and documents in accordance with established procedures using processing systems; and authorize and issue licences, permits, registration papers, reimbursements and other material after requested documents have been processed and approved."
+            ]
+        },
+        {
+            "noc_code": "20012",
+            "civilian_title": "Computer and Information Systems Managers",
+            "task_statements": []
+        },
+        {
+            "noc_code": "21211",
+            "civilian_title": "Data scientists",
+            "task_statements": [
+                "The following is a summary of the main duties for some occupations in this unit group:",
+                "Database analysts and data administrators perform some or all of the following duties:",
+                "Software engineers and designers perform some or all of the following duties:",
+                "Database analysts",
+                "Collect and document users' requirements and develop logical and physical specifications",
+                "Information systems business analysts and consultants",
+                "Collect and document user requirements",
+                "Confer with clients to identify and document requirements",
+                "Research, evaluate and synthesize technical information to design, develop and test computer-based systems including mobile applications",
+                "Conduct business and technical studies",
+                "Develop data, process and network models to optimize architecture and to evaluate the performance and reliability of designs",
+                "Design and develop database architecture for information systems projects",
+                "Design, develop, integrate and implement information systems business solutions",
+                "Design, construct, modify, integrate, implement and test data models and database management systems",
+                "Plan, design and co-ordinate the development, installation, integration and operation of computer-based systems including mobile applications",
+                "Assess, test, troubleshoot, document, upgrade and develop maintenance procedures for operating systems, communications environments and applications software",
+                "Conduct research and provide advice to other informatics professionals regarding the selection, application and implementation of database management tools",
+                "Provide advice on information systems strategy, policy, management, security and service delivery.",
+                "Operate database management systems to analyze data and perform data mining analysis",
+                "Systems security analysts",
+                "May lead and co-ordinate teams of information systems professionals in the development of software and integrated information systems, process control software and other embedded software control systems.",
+                "Confer with clients to identify and document requirements, assess physical and technical security risks to data, software and hardware",
+                "May lead, co-ordinate or supervise other workers in this group.",
+                "Develop policies, procedures and contingency plans to minimize the effects of security breaches.",
+                "Data administrators",
+                "Information systems quality assurance analysts",
+                "Develop and implement data administration policy, standards and models",
+                "Develop and implement policies and procedures throughout the software development life cycle to maximize the efficiency, effectiveness and overall quality of software products and information systems.",
+                "Research and document data requirements, data collection and administration policy, data access rules and security",
+                "Develop policies and procedures for network and/or Internet database access and usage and for the backup and recovery of data",
+                "Systems auditors",
+                "Conduct independent third-party reviews to assess quality assurance practices, software products and information systems.",
+                "Conduct research and provide advice to other information systems professionals regarding the collection, availability, security and suitability of data",
+                "Write scripts related to stored procedures and triggers",
+                "May lead and co-ordinate teams of data administrators in the development and implementation of data policies, standards and models."
+            ]
+        }
+    ],
+    "00100: MET TECH": [
+        {
+            "noc_code": "21103",
+            "civilian_title": "Meteorologists and climatologists",
+            "task_statements": [
+                "Meteorologists and climatologists perform some or all of the following duties:",
+                "Analyze and interpret data obtained from meteorological stations, radar and satellite imagery and computer model output",
+                "Produce weather forecasts and provide weather consulting services for industries such as aviation, marine, agriculture and tourism, and to the general public",
+                "Disseminate weather forecasts and reports to the general public through a variety of media including radio, television, print and the Internet",
+                "Conduct research and provide consultation on the processes and determinants of atmospheric phenomena, weather and climate, atmospheric dispersion, and physical and chemical transformation of pollutants",
+                "Develop and test mathematical computer models of weather and climate for experimental or operational use",
+                "Analyze the impact of industrial projects and human activity on the climate and quality of the air and work with the social science, engineering and economic communities to develop appropriate mitigation strategies",
+                "Participate in studies of the effect of weather on the environment",
+                "Provide consultation and advice to outside agencies, professionals, or researchers regarding the use and interpretation of climatological information",
+                "Make scientific presentations, publish reports, articles or popular texts for specialists, users or the general public",
+                "May engage in the design and development of new equipment and procedures for meteorological data collection, remote sensing, or for related applications."
+            ]
+        },
+        {
+            "noc_code": "22214",
+            "civilian_title": "Technical occupations in geomatics and meteorology",
+            "task_statements": [
+                "Technical occupations in geomatics and meteorology perform some or all of the following duties:",
+                "Aerial survey and remote sensing technologists and technicians",
+                "Operate analog or digital airborne remote sensing equipment such as survey film or digital cameras, laser or radar sensors and scanners to prepare images, data and graphic reports, maps and charts from airborne or satellite data",
+                "Develop specialized analog and computer software specific routines to customize and integrate image analysis",
+                "Inspect quality of recorded images, verify the integrity and accuracy of data contained in remote sensing image analysis systems, and adjust equipment as required.",
+                "Geographic information systems (GIS) technologists and technicians",
+                "Operate specialized computer hardware and software and peripheral equipment to model, manage, analyze and display geospatial data",
+                "Develop specialized computer software routines, Internet based GIS, database and business applications to customize geographic information",
+                "Work with external organizations on data transfer and systems compatibility issues",
+                "Perform data entry and editing activities and maintenance operations to systems following pre-determined calibration procedures",
+                "Integrate external software such as spreadsheets and statistical packages with GIS software",
+                "Train and provide technical support for GIS users.",
+                "Cartographic technologists and technicians",
+                "Plan map content, format and design and compile required data from aerial photographs, survey notes, records, reports and other maps",
+                "Generate maps and related graphs and charts using digital mapping techniques, computer interactive graphics, computer assisted design and drafting (CAD) software, traditional drafting methods and computer or traditional scribing tools",
+                "Inspect final compositions to ensure completeness and accuracy.",
+                "Photogrammetric technologists and technicians",
+                "Examine and interpret aerial photographs to prepare topographic maps, aerial-photograph mosaics and related charts",
+                "Operate digitized stereoscopic plotting and computer graphics equipment to provide three-dimensional optical models of terrain, to trace maps, and to prepare charts and tables",
+                "Monitor recording quality and adjust equipment as required and inspect quality of recorded images.",
+                "Meteorological technologists and technicians",
+                "Observe, record and transmit atmospheric and weather information including air pressure, temperature, humidity, precipitation and cloud, wind and ultraviolet conditions",
+                "Observe, chart and report on ice conditions in navigable waters and snow conditions, and participate in programs to forecast and control avalanches in mountainous terrain",
+                "Maintain climatological databases, analyze and interpret weather data and participate in the production of weather maps, charts and reports",
+                "Install, inspect, monitor, calibrate and maintain meteorological equipment and instruments."
+            ]
+        }
+    ],
+    "00101: SAR TECH": [
+        {
+            "noc_code": "32102",
+            "civilian_title": "Paramedical occupations",
+            "task_statements": [
+                "Workers in this unit group perform some or all of the following duties:",
+                "Assess extent of injuries or medical illnesses of trauma victims, patients with respiratory disease and stress, overdose and poisoning victims, industrial accident victims and other ill or injured individuals to determine emergency medical treatment",
+                "Administer pre-hospital emergency care to patients such as oxygen therapy, cardiopulmonary resuscitation (CPR), spinal immobilization, bandaging and splinting",
+                "Establish and maintain intravenous treatment (IV), apply adjunctive equipment for ventilation and circulation complications, administer medications and provide other advanced emergency treatment to patients",
+                "Transport patients by air, land or water to hospital or other medical facility for further medical care",
+                "Collaborate with ambulance dispatch centres, hospital staff, police, firefighters and family members to ensure relevant information is collected and proper treatment is administered",
+                "Document and record nature of injuries and illnesses and treatment provided",
+                "Assist hospital personnel with provision of medical treatment, if necessary",
+                "Maintain emergency care equipment and supplies",
+                "May train and supervise other workers in this unit group",
+                "May assist with triage of emergency patients."
+            ]
+        },
+        {
+            "noc_code": "41210",
+            "civilian_title": "College and other vocational instructors",
+            "task_statements": [
+                "College and other vocational instructors perform some or all of the following duties:",
+                "Teach students using a systematic plan of lectures, demonstrations, discussion groups, laboratory work, shop sessions, seminars, case studies, field assignments and independent or group projects",
+                "Develop curriculum and prepare teaching materials and outlines for courses",
+                "Prepare, administer and mark tests and papers to evaluate students' progress",
+                "Advise students on program curricula and career decisions",
+                "Provide individualized tutorial or remedial instruction to students who require it",
+                "Supervise independent or group projects, field placements, laboratory work or hands-on training",
+                "Supervise teaching assistants",
+                "May provide consultation services to government, business and other organizations",
+                "May serve on committees concerned with matters such as budgets, curriculum revision, and course and diploma requirements.",
+                "These instructors specialize in particular fields or areas of study such as visual arts, dental hygiene, welding, engineering technology, policing, computer software, management and early childhood education."
+            ]
+        },
+        {
+            "noc_code": "41310",
+            "civilian_title": "Police investigators and other investigative occupations",
+            "task_statements": [
+                "Police officers perform some or all of the following duties:",
+                "Patrol assigned areas to maintain public safety and order and to enforce laws and regulations",
+                "Investigate crimes and accidents, execute search warrants, secure evidence, interview witnesses, compile notes and reports and provide testimony in courts of law",
+                "Apprehend and arrest criminal suspects",
+                "Provide emergency assistance to victims of accidents, crimes and natural disasters",
+                "Participate in crime prevention, public information and safety programs",
+                "May supervise and co-ordinate the work of other police officers."
+            ]
+        },
+        {
+            "noc_code": "42101",
+            "civilian_title": "Firefighters",
+            "task_statements": [
+                "Firefighters perform some or all of the following duties:",
+                "Respond to fire alarms and other calls for assistance, such as automobile and industrial accidents, bomb threats and other emergencies",
+                "Rescue victims from burning buildings and accident sites",
+                "Control and extinguish fires using manual and power equipment, such as axes, water hoses, aerial ladders and hydraulic equipment and various firefighting chemicals",
+                "Administer first aid and other assistance",
+                "Ensure proper operation and maintenance of firefighting equipment",
+                "Prepare written reports on fire incidents",
+                "Inform and educate the public on fire prevention",
+                "Train to maintain high level of physical fitness",
+                "Assist the public, the police and emergency organizations during times of major disasters",
+                "May participate as members of a trauma or emergency response team and provide paramedical aid to accident victims or ill persons",
+                "May supervise and co-ordinate the work of other firefighters",
+                "May conduct building inspections to ensure compliance with fire code."
+            ]
+        },
+        {
+            "noc_code": "64322",
+            "civilian_title": "Outdoor sport and recreational guides",
+            "task_statements": [
+                "Outdoor sport and recreational guides perform some or all of the following duties:",
+                "Plan itinerary for trip or expedition and arrange transportation or transport individuals or group to site",
+                "Assemble and inspect necessary equipment and supplies, such as camping gear, rafts, life jackets, fishing tackle and food",
+                "Lead or escort individuals or groups and advise on safety and emergency measures, techniques and the use of equipment",
+                "Provide instruction for activities such as canoeing, rafting and mountain climbing",
+                "Advise on specific regulations such as hunting and fishing laws and boating regulations, follow environmental guidelines and prevent violations",
+                "Provide first aid in emergency situations",
+                "May prepare meals for group and set up camp."
+            ]
+        },
+        {
+            "noc_code": "72423",
+            "civilian_title": "Motorcycle, all-terrain vehicle and other related mechanics",
+            "task_statements": [
+                "The following is a summary of main duties for some occupations in this unit group:",
+                "Mechanics in this unit group perform some or all of the following duties:",
+                "Review work orders and discuss work to be performed with supervisor",
+                "Gunsmiths fabricate guns and repair and modify firearms according to blueprints or customers' specifications.",
+                "Inspect and test engine and other mechanical components using test devices to diagnose and isolate faults",
+                "Locksmiths repair, install and adjust locks, make keys and change lock combinations.",
+                "Recreation vehicle technicians repair or replace electrical wiring, plumbing, propane gas lines, appliances, windows, doors, cabinets and structural frames in recreational vehicles.",
+                "Adjust, repair or replace mechanical or electrical system parts and components using hand tools and equipment",
+                "Test and adjust repaired systems for proper performance",
+                "Safe and vault servicers install, repair and maintain safes and vaults in banks and other establishments.",
+                "Saw fitters repair, set and sharpen band saws, chain saws, circular saws and other types of saw blades according to specifications.",
+                "Perform scheduled maintenance service on equipment",
+                "Die setters select dies for forging according to work order and specifications; position align and bolt dies to ram and anvil of power presses and hammers.",
+                "Advise customers on work performed and general condition of equipment",
+                "Commercial divers perform underwater activities related to construction, inspection, search, salvage, repair and photography.",
+                "Determine estimates of repair cost",
+                "May repair and rebuild hoisting mechanism and other mechanical systems on industrial trucks and forklifts."
+            ]
+        },
+        {
+            "noc_code": "84111",
+            "civilian_title": "Silviculture and forestry workers",
+            "task_statements": [
+                "Silviculture and forestry workers perform some or all of the following duties:",
+                "Assess site, select seedlings and plant trees using manual planting tools in reforestation areas",
+                "Operate power thinning saw to thin and space trees in reforestation areas",
+                "Operate chain saw to thin young forest stands",
+                "Control weeds and undergrowth in regenerating forest stands using manual tools and chemicals",
+                "Complete firefighting reports and maintain firefighting equipment",
+                "Dig trenches, cut trees, pump water on burning areas to fight forest fires under direction of fire suppression officer or forestry technician",
+                "Operate and maintain a skidder, bulldozer or other prime mover to pull a variety of scarification or site preparation equipment over areas to be regenerated",
+                "Perform other silviculture duties such as collecting seed cones, pruning trees, assisting in planting surveys and marking trees for subsequent operations."
+            ]
+        }
+    ]
+}

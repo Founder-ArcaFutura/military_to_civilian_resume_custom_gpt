@@ -1,0 +1,48 @@
+version: 0.1.0
+last_updated: 2024-03-01
+fields:
+  - key: service_history
+    label: Service History Entry
+    description: Chronological record of postings, units, locations, and roles.
+    required: true
+    sensitivity: moderate
+    attributes:
+      - name: unit
+        description: Unit or formation name.
+        required: true
+      - name: location
+        description: Geographic location of the posting or deployment.
+        required: true
+      - name: role
+        description: Role title or appointment held during the posting.
+        required: true
+      - name: start_date
+        description: Start date of the posting in YYYY-MM-DD format.
+        required: true
+      - name: end_date
+        description: End date of the posting in YYYY-MM-DD format.
+        required: false
+  - key: qualifications
+    label: Qualifications
+    description: Military training courses, certifications, and designations.
+    required: true
+    sensitivity: low
+    attributes:
+      - name: course_name
+        description: Official title of the qualification or course.
+        required: true
+      - name: completion_date
+        description: Date when the qualification was earned.
+        required: false
+  - key: awards
+    label: Honours and Awards
+    description: Decorations, commendations, or recognitions received.
+    required: false
+    sensitivity: low
+    attributes:
+      - name: award_name
+        description: Name of the honour or award.
+        required: true
+      - name: citation
+        description: Citation text summarizing why the award was granted.
+        required: false
